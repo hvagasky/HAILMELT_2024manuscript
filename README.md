@@ -10,7 +10,7 @@ HAILMELT is a Python-based one-dimensional hall fall trajectory model that is ba
         - Terminal Velocity: Rasmussen and Heymsfield 1987, diameter – velocity relationship from Heymsfield et al. 2018
 
 Model Input:
-- Sounding text file (obtained from https://weather.uwyo.edu/upperair/sounding.html)
+- Sounding text file (usually obtained from https://weather.uwyo.edu/upperair/sounding.html)
 - Assumed initial hail size distribution (Can be read in from an input file or manually defined within the code)
 - Assumed vertical velocity profile (Currently this is assumed to be 0 m/s below the LCL and 5 m/s above the LCL).
 
