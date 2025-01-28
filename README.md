@@ -1,12 +1,10 @@
 Code Associated with Vagasky et al. (2025, MWR)
 
 HAILMELT is a Python-based one-dimensional hall fall trajectory model that is based on HAILCAST (Poolman 1992, Brimelow et al. 2002, 2006; Jewell and Brimelow 2009, Adams-Selin and Zeigler 2016, Adams-Selin et al. 2019, Adams-Selin 2023, and Pounds et al. 2024). HAILMELT is unique since it is a simplified hail trajectory model that only simulates falling melting hail and includes several melting and terminal velocity parameterizations. 
-   
     - Model details:
       - Hail in HAILMELT is not allowed to grow via collection or deposition and the model stops if the hail is swept upward by an updraft. 
       - Hail is assumed spherical and sheds water when the water mass exceeds 2.0E-4 kg
       - HAILMELT's time resolution is currently set to 1 second
-    
     - Included parameterizations: 
         - Melting: Heymsfield 1987, Wang and Chueh 2020, and Zheng and List 1994
         - Terminal Velocity: Rasmussen and Heymsfield 1987, diameter – velocity relationship from Heymsfield et al. 2018
