@@ -7,8 +7,8 @@ Model details:
 - Hail is assumed spherical and sheds water when the water mass exceeds 2.0E-4 kg
 - HAILMELT's time resolution is currently set to 1 second
 - Included parameterizations: 
-    - Melting: Heymsfield 1987, Wang and Chueh 2020, and Zheng and List 1994
-    - Terminal Velocity: Rasmussen and Heymsfield 1987, diameter – velocity relationship from Heymsfield et al. 2018
+    - Melting: Heymsfield 1987 (mRH87), Wang and Chueh 2020 (mWC2020), and Zheng and List 1994 (mZL1994)
+    - Terminal Velocity: Rasmussen and Heymsfield 1987 (tRH87), diameter – velocity relationship from Heymsfield et al. 2018 (tH2018_vd)
 
 Model Input:
 - Sounding text file (usually obtained from https://weather.uwyo.edu/upperair/sounding.html)
