@@ -46,7 +46,7 @@ Basic model output:
           
 The versions of the codes that run the environmental and vertical velocity senstivity are run similarly and have similar outputs. All necessary changes are made in the first 11 sections of code. 
 
-
+Questions or comments can be listed in the discussion section of emailed to hvagasky@aer.com
 
 
 
